@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "dist/js",
+        "target": "ES6",
+        "types": [
+            "node"
+        ],
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "paths": {
+            "*": [
+                "./node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "./**/*"
+    ]
+
+}
