@@ -118,3 +118,25 @@ To create a book you need to send this payload (in json format) below:
 * Be careful with REST API details. They can bite you!
 
 **Have fun!**
+# production
+
+This project is deployed on EC2. It's use RDS with postgres.
+
+I use postman to consume the API. The colection is on root folder (colcaoPostman)
+
+### API URL
+34.235.153.51:3000
+
+### endpoints
+* POST - /books - with book data on payload to create a book
+* GET - /books - get all books
+* PUT - /books/:id - with book data on payload to update a book
+* DELETE - /books/:id - delete a book
+* GET - /authors - get all authors
+
+## Instalation
+npm i
+
+## Run project
+npm start
+
